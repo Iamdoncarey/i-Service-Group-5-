@@ -3,9 +3,9 @@
 # This repo contains the Techyjaunt Group 5 project
 ## The project name (i-Service) 
 
-# My Portfolio
+# Booking Page
 
-Check out my amazing portfolio below!
+Check out the Booking page below!
 
 ![Booking Page Screenshot](./assets/Screenshot%20(137).png)
 ![Booking Page Screenshot](./assets/Screenshot%20(138).png)
