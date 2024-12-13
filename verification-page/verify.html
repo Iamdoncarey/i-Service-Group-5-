@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verification Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen px-5 mt-6">
+
+    <!-- Logo -->
+    <div class="text-center mb-6">
+        <img src="logo.png" alt="Logo" class="w-24 mx-auto mb-2">
+    </div>
+
+    <!-- Verification Title -->
+    <h2 class="text-3xl font-semibold text-gray-800 mb-4">VERIFICATION</h2>
+
+    <!-- Image -->
+    <div class="mb-6">
+        <img src="verification-image.png" alt="Verification Image" class="w-48 mx-auto">
+    </div>
+
+    <!-- Enter Code Text -->
+    <p class="text-lg text-gray-700 mb-4 text-center">
+        Enter the 6-digit code we sent to <strong>+234****7772</strong>
+    </p>
+
+    <!-- Description Text -->
+    <p class="text-sm text-gray-600 mb-6 text-center">
+        <strong>This helps us to keep your account safe by verifying that it's really you.</strong>
+    </p>
+
+    <!-- 6-Digit Code Input Container -->
+    <div class="bg-blue-500 p-4 rounded-lg shadow-md mb-6">
+        <div class="grid grid-cols-6 gap-2">
+            <input type="text" class="w-12 h-12 text-center text-2xl bg-white border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500" maxlength="1" />
+            <input type="text" class="w-12 h-12 text-center text-2xl bg-white border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500" maxlength="1" />
+            <input type="text" class="w-12 h-12 text-center text-2xl bg-white border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500" maxlength="1" />
+            <input type="text" class="w-12 h-12 text-center text-2xl bg-white border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500" maxlength="1" />
+            <input type="text" class="w-12 h-12 text-center text-2xl bg-white border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500" maxlength="1" />
+            <input type="text" class="w-12 h-12 text-center text-2xl bg-white border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500" maxlength="1" />
+        </div>
+    </div>
+
+
+    <!-- Red Section for "Didn't get the code?" -->
+    <div class="bg-red-500  sm:w-full  p-4 rounded-lg flex items-center justify-between mb-6">
+        <div class="flex items-center space-x-2">
+            <!-- Exclamation Circle -->
+            <div class="bg-white text-red-500 p-2 rounded-full">
+                <i class="fas fa-exclamation-circle text-xl"></i>
+            </div>
+            <span class="text-white text-sm">Didn't get the code?</span>
+        </div>
+        <span class="text-white text-sm font-semibold">Resend (00:59)</span>
+    </div>
+
+     <!-- Verify Button -->
+     <button class="bg-white text-blue-500  w-1/4 py-2 rounded-md mb-6">
+        Verify
+    </button>
+
+</body>
+</html>
